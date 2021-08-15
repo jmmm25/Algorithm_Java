@@ -48,12 +48,12 @@ public class 더_맵게 {
         return answer;
     }
 
-    public static void main(String[] args) {
-        int[] scoville = {1, 2, 3, 9, 10, 12};
-//        int[] scoville = {1, 2};
-        int K = 7;
-        더_맵게 s = new 더_맵게();
-
-        System.out.println(s.solution(scoville, K));
-    }
+//    public static void main(String[] args) {
+//        int[] scoville = {1, 2, 3, 9, 10, 12};
+////        int[] scoville = {1, 2};
+//        int K = 7;
+//        더_맵게 s = new 더_맵게();
+//
+//        System.out.println(s.solution(scoville, K));
+//    }
 }

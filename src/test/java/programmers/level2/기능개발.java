@@ -43,11 +43,11 @@ public class 기능개발 {
         return answer;
     }
 
-    public static void main(String[] args) {
-        기능개발 s = new 기능개발();
-        int[] progresses = {93, 30, 55};
-        int[] speeds = {1, 30, 5};
-        int[] answer = s.solution(progresses, speeds);
-
-    }
+//    public static void main(String[] args) {
+//        기능개발 s = new 기능개발();
+//        int[] progresses = {93, 30, 55};
+//        int[] speeds = {1, 30, 5};
+//        int[] answer = s.solution(progresses, speeds);
+//
+//    }
 }

@@ -22,10 +22,10 @@ public class 짝지어_제거하기 {
         return answer;
     }
 
-    public static void main(String[] args) {
-        짝지어_제거하기 m = new 짝지어_제거하기();
-        String s = "cdcd";
-
-        System.out.println(m.solution(s));
-    }
+//    public static void main(String[] args) {
+//        짝지어_제거하기 m = new 짝지어_제거하기();
+//        String s = "cdcd";
+//
+//        System.out.println(m.solution(s));
+//    }
 }

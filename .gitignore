@@ -10,3 +10,5 @@
 #intellij
 .idea
 /out
+/target
+/src/test/java/toss/

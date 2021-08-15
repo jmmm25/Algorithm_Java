@@ -18,11 +18,11 @@ public class 나라의_숫자_124 {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-        int n = 8;
-        나라의_숫자_124 s = new 나라의_숫자_124();
-
-        System.out.println(s.solution(n));
-    }
+//    public static void main(String[] args) {
+//        int n = 8;
+//        나라의_숫자_124 s = new 나라의_숫자_124();
+//
+//        System.out.println(s.solution(n));
+//    }
 
 }
