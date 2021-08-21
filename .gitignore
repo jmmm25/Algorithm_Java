@@ -11,5 +11,4 @@
 .idea
 /out
 /target
-/src/test/java/toss/*.java
-/src/test/java/kabank/*.java
+/src/test/java/test
