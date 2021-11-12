@@ -1,4 +1,4 @@
-package boj.class1.단어공부;
+package boj.class1.단어공부_1157;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

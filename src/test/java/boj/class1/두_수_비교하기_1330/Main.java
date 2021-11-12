@@ -1,4 +1,4 @@
-package boj.class1.두_수_비교하기;
+package boj.class1.두_수_비교하기_1330;
 
 import java.io.*;
 import java.util.StringTokenizer;

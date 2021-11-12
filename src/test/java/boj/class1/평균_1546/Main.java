@@ -1,7 +1,6 @@
-package boj.class1.평균;
+package boj.class1.평균_1546;
 
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;

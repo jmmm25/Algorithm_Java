@@ -1,4 +1,4 @@
-package boj.class1.최댓값;
+package boj.class1.최댓값_2562;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
