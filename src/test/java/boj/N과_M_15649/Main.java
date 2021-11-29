@@ -1,4 +1,4 @@
-package boj.class2.N과_M_15649;
+package boj.N과_M_15649;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
