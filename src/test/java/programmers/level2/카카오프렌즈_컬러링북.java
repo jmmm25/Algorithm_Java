@@ -1,6 +1,5 @@
 package programmers.level2;
 
-import javafx.util.Pair;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -8,19 +7,29 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class 카카오프렌즈_컬러링북 {
-    Queue<Pair<Integer, Integer>> queue = new LinkedList<>();
+    public class Pair {
+        int key;
+        int value;
+
+        public Pair(int key, int value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
+
+    Queue<Pair> queue = new LinkedList<>();
     int[] dx = {0, 0, 1, -1};
     int[] dy = {1, -1, 0, 0};
     boolean[][] isVisited = new boolean[101][101];
 
     private int bfs(int i, int j, int m, int n, int[][] picture, int size) {
         isVisited[i][j] = true;
-        queue.add(new Pair<>(i, j));
+        queue.add(new Pair(i, j));
 
         while (!queue.isEmpty()) {
-            Pair<Integer, Integer> pair = queue.poll();
-            int x = pair.getKey();
-            int y = pair.getValue();
+            Pair pair = queue.poll();
+            int x = pair.key;
+            int y = pair.value;
             size++;
             for (int k = 0; k < 4; k++) {
                 int nx = x + dx[k];
@@ -28,7 +37,7 @@ public class 카카오프렌즈_컬러링북 {
                 if (nx < 0 || ny < 0 || nx >= m || ny >= n || picture[x][y] != picture[nx][ny] || isVisited[nx][ny]) {
                     continue;
                 }
-                queue.add(new Pair<>(nx, ny));
+                queue.add(new Pair(nx, ny));
                 isVisited[nx][ny] = true;
             }
         }
